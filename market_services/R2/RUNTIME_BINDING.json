@@ -1,0 +1,11 @@
+{
+  "schema":"braink.market-services.cloud-runtime-binding.r2/v1",
+  "canonical_code":"aboudykeddeh276-stack/BRAINK/enterprise/market_services",
+  "runtime":"RUN-MARKET-SERVICES-R2",
+  "checkpoint":"VFS://BRAINK/MARKET-SERVICES/R2/CHECKPOINT/2",
+  "state":"BOUND_NOT_EXTERNALLY_ACTUATED",
+  "launch_module":"enterprise.market_services.sector_binding_runtime",
+  "continuation":"ADAPTER_CAPABILITY_CLOSURE",
+  "required_host_capabilities":["python3","writable_state_volume","sqlite_wal","process_supervisor"],
+  "evidence_boundary":"This binds the cloud substrate to the runtime contract; it does not assert a currently listening external service process."
+}
