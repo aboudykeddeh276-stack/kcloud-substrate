@@ -1,0 +1,11 @@
+{
+  "schema":"braink.estate-dependency-binding.r32/v1",
+  "repository":"aboudykeddeh276-stack/kcloud-substrate",
+  "sector_role":"CLOUD_INFRASTRUCTURE",
+  "authority_state":"CANONICAL_CANDIDATE",
+  "owned_mechanics":["cloud substrate allocation candidates","host/runtime substrate definitions","replica/object placement policies"],
+  "required_upstream":["SERVERS-KEDDEHSYSTEMS server runtime","virtualized-storage K-DRIVE persistence","BRAINK R28 resident-root identity","BRAINK R24 host trust","GENERAL-GOVERNANCE- R32 gates"],
+  "invariants":["LOGICAL_CLOUD_OBJECT_NE_PUBLIC_HOST_ALLOCATION","CARRIER_IS_PROJECTION_NOT_IDENTITY","CLOUD_AUTHORITY_NE_GENERIC_SERVER_EXECUTION"],
+  "promotion_requires":["physical/independent host evidence where claimed","storage persistence/readback","multi-host failure/recovery","external allocation/readback for public cloud claims"],
+  "status":"DEPENDENCY_BOUND_NOT_AUTHORITY_PROMOTED"
+}
